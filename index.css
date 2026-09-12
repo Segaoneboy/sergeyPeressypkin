@@ -49,13 +49,14 @@ a:hover{
 /*Обо мне*/
 .circle{
     position: absolute;
-    width: 300px;
-    height: 300px;
-    background-color: black;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     z-index: -1;
-    bottom: 20vh;
-    left: -9vh;
+    bottom: 11vh;
+    left: -15vh;
+    background: radial-gradient(circle, #202020 0%, rgba(7, 13, 15, 0) 70%)
+
 }
 .about-me{
     height: 90vh;
@@ -63,7 +64,6 @@ a:hover{
     grid-template-columns: 2fr 1fr;
     gap: 2vw;
     align-items: center;
-    filter:blur(10%)
     
 }
 .about-me__h1{
