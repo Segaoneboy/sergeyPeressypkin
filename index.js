@@ -98,7 +98,7 @@ let isScrolling = false;
 
     setTimeout(()=>{
         isScrolling = false;
-    }, 200)
+    }, 300)
 })
 
 
